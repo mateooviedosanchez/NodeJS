@@ -1,21 +1,31 @@
 {
-  "name": "nueva-carpeta",
+  "name": "express-workshop-2026-09",
   "version": "1.0.0",
-  "description": "An API REST using express.js ",
+  "description": "this is a project for the express workshop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateooviedosanchez/NodeJS.git"
+  },
   "keywords": [
-    "api",
-    "rest",
+    "node",
+    "jwt",
     "express",
-    "nodejs"
+    "mysql"
   ],
   "license": "ISC",
   "author": "Angel Mateo Oviedo Sanchez",
+  "bugs": {
+    "url": "https://github.com/mateooviedosanchez/NodeJS/issues"
+  },
+  "homepage": "https://github.com/mateooviedosanchez/NodeJS#readme",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
   }
 }
